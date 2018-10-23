@@ -48,7 +48,7 @@
         // load js files based on capability detection then setup the scene if successful
         awe.util.require([
           {
-            capabilities: ['webgl'],
+            capabilities: ['webgl', 'gum'],
             files: [ 
               [ '../../js/awe-standard-dependencies.js'+d, '../../js/awe-standard.js'+d ], // core dependencies for this app 
               ['../../js/plugins/StereoEffect.js'+d, '../../js/plugins/VREffect.js'+d], // dependencies for render effects
